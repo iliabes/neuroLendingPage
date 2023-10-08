@@ -7,12 +7,12 @@
     <title>Neuro</title>
   </head>
   <body>
-    <header class="header ">
+    <header class="header none">
       
         <div class="header-top">
           <div class="container">
-            <div class="header__top-row">
-              <a href="#"><img src="./img/header/first-screen__logo.png" alt=""></a>
+            <div id="headerRow" class="header__top-row ">
+              <a href="#"><img class="header-logo" src="./img/header/first-screen__logo.png" alt=""></a>
               <nav class="header__nav">
               <ul  class="header__nav-list">
                 <li><a href="#">О коплексе</a></li>
@@ -21,9 +21,7 @@
                 <li><a href="#">Ипотека</a></li>
                 <li><a href="#">Контакты</a></li>
               </ul>
-              <div class="header__nav-btn">
-                <button>Menu</button>
-              </div>
+                <button id="burger" class="header__nav-btn"> меню</button>
             </nav>
           </div>
         </div>
@@ -113,6 +111,7 @@
         <div class="cta__text">
           <p>ЖК Гранд Парк– это проект бизнес-класса, расположенный в центре города, на Улице Пушкина 14-88. аш комплекс расположен в прекрасном районе, окруженном зеленью и с прекрасным видом на городской пейзаж, в комплексе 4 дома и 200 квартир</p>
         </div>
+        <div class="container">
           <form action="" class="form">
               <div class="cta-from">
                 <input type="text" placeholder="Ваше имя" class="form__input">
@@ -121,7 +120,7 @@
                 <button type="submit " class="form__button">Посмотреть район</button>
               </div>
           </form>
-        
+        </div>
       </div>
     </div>
   </section>
@@ -199,7 +198,7 @@
         </div>
       </div>
     </footer>
-    <script type="module" src="/main.js"></script>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>
 
