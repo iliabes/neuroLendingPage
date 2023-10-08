@@ -1,15 +1,206 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/demon3.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Neuro</title>
-    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <header class="header ">
+      
+        <div class="header-top">
+          <div class="container">
+            <div class="header__top-row">
+              <a href="#"><img src="./img/header/first-screen__logo.png" alt=""></a>
+              <nav class="header__nav">
+              <ul  class="header__nav-list">
+                <li><a href="#">О коплексе</a></li>
+                <li><a href="#">Район</a></li>
+                <li><a href="#">Каталог квартир</a></li>
+                <li><a href="#">Ипотека</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+              <div class="header__nav-btn">
+                <button>Menu</button>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      
 
-</head>
-<body>
-    <h1>hello world</h1>
-    <script></script>
-</body>
+      <div class="container">
+          <h1 class="header__title" >Жилой комплекс <br/>
+            Гранд Парк
+            <a href="#benefits">
+              <img class="heder__title-icon" src="./img/header/mouse.svg" alt="mouse">
+            </a>
+          </h1>
+      </div>
+
+      </div>
+      <div class="contaner">
+      <div class="header__footer">
+          <div class="text-right">
+            <a href="#map" class="info info--map">Улица Пушкина 10-15</a>
+          </div>
+          <a href="8 (812) 123-45-67" class="info info--tel">8 (812) 123-45-67</a>
+        
+      </div>
+    </div>
+  </header>
+  <main>
+  <section class="benefits none1">
+    <h2 class="visually-hidden">преимущества</h2>
+    <div class="contaner">
+    <div class="benefits-row">
+      <div class="benefits__item">
+        <img src="./img/benefits/bench.svg" alt="иконка скамьи" class="benefits__item-image">
+        <p class="benefit__item-text">Рядом исторические
+          парки <br> и скверы</p>
+      </div>
+      <div class="benefits__item">
+        <img src="./img/benefits/building.svg" alt="иконка дома" class="benefits__item-image">
+        <p class="benefit__item-text">Полностью<br> 
+          обустроенный
+          </p>
+      </div>
+      <div class="benefits__item">
+        <img src="./img/benefits/fountain.svg" alt="иконка фонтана" class="benefits__item-image">
+        <p class="benefit__item-text">10 фонтанов<br> 
+          на территории</p>
+      </div>
+      <div class="benefits__item">
+        <img src="./img/benefits/bicycle.svg" alt="иконка велосипед" class="benefits__item-image">
+        <p class="benefit__item-text">6 км<br>  велодорожек</p>
+      </div>
+    </div>
+  </div>
+  </section>
+  <section class="apartmens none1">
+    <div class="container">
+      <div class="apartments__title">
+        <h2 class="title-2">Наши квартиры</h2>
+      </div>  
+      <div class="apartments__cards">
+        <div class="card">
+          <a href=""><img class="card__img" src="./img/apartments/01.png" alt=""></a>
+          <h3 class="card__title">Чердак “Эверест”</h3>
+        </div>
+        <div class="card">
+          <a href=""><img class="card__img" src="./img/apartments/02.png" alt=""></a>
+          <h3 class="card__title">Апартаменты “Grand eco”</h3>
+        </div>
+        <div class="card">
+          <a href=""><img class="card__img" src="./img/apartments/03.jpg" alt=""></a>
+          <h3 class="card__title">Апартаменты “Loft </h3>
+        </div>
+        <div class="card">
+          <a href=""><img class="card__img" src="./img/apartments/04.png" alt=""></a>
+          <h3 class="card__title">Студия “Комфорт”</h3>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="cta none1">
+    <div class="container">
+      <div class="cta__title">
+        <h2 class="title-2">Хотите посмотреть?</h2>
+      </div>  
+      <div class="cta__row">
+        <div class="cta__text">
+          <p>ЖК Гранд Парк– это проект бизнес-класса, расположенный в центре города, на Улице Пушкина 14-88. аш комплекс расположен в прекрасном районе, окруженном зеленью и с прекрасным видом на городской пейзаж, в комплексе 4 дома и 200 квартир</p>
+        </div>
+          <form action="" class="form">
+              <div class="cta-from">
+                <input type="text" placeholder="Ваше имя" class="form__input">
+                <input type="text" placeholder="Ваш телефон" class="form__input">
+                <p class="form__privacy">*Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.</p>
+                <button type="submit " class="form__button">Посмотреть район</button>
+              </div>
+          </form>
+        
+      </div>
+    </div>
+  </section>
+  <section class="video none1">
+    <h2 class="visually-hidden"> видео</h2>
+    <div class="container">
+      <a class="video__link" href="https://www.youtube.com/watch?v=0fDJXmqdN-A">
+        <img class="video__img" src="./img/video/video-img.jpg" alt="">
+        <img class="video__icon" src="./img/video/play-button.svg" alt="">
+      </a>
+    </div>
+  </section>
+  <section class="section-map none1">
+    <div class="container">
+      <div class="section-map__title"><h2 class="title-2">Район на карте</h2></div>  
+      <div class="section-map__map">
+        <div class="map"></div>
+      </div>
+    </div>
+  </section>
+  <section class="questions none1">
+    
+    <div class="container">
+      <div class="questions__title"><h2 class="title-2">Район на карте</h2></div>  
+      <form action="" class="form">
+        <div class="container-form">
+        <p class="form__privacy">*Мы никому не передаем ваши данные.<br> И не сохраняем ваш номер в базу.</p>
+        <input type="text" placeholder="Ваше имя" class="form__input">
+        <input type="text" placeholder="Ваш телефон" class="form__input">
+        <button type="submit " class="form__button">Посмотреть район</button>
+      </div>
+      </form>
+    </div>
+  </section>
+  
+</main>
+    <footer class="footer none1">
+      <div class="container">
+        <div class="footer__grid">
+          <div class="footer__column">
+            <img src="./img/header/first-screen__logo.png" alt="icon">
+          </div>
+          <ul class="footer__column">
+              <div class="footer__column-list">
+                <li><a href="#">О комплексе</a></li>
+                <li><a href="#">Район</a></li>
+                <li><a href="#">Каталог квартир</a></li>
+                <li><a href="#">Ипотека</a></li>
+                <li><a href="#">Контактые</a></li>
+              </div>
+          </ul>
+          <ul class="footer__column">
+            <div class="footer__column-list">
+              <li><a href="#">Поселение и переезд</a></li>
+              <li><a href="#">Сервисные услуги</a></li>
+              <li><a href="#">Экологическая устойчивость</a></li>
+              <li><a href="#">Инвестиционные возможности</a></li>
+              <li><a href="#">Программа лояльности</a></li>
+            </div>
+        </ul>
+        <div class="footer__column">
+          <ul class="footer__column-list">
+            <li><a href="#">Адрес: GПушкниа 999</a></li>
+            <li><a href="#">Телефон: 8 (800) 555-35-55</a></li>
+            <li><a href="#">Отдел продаж: 10:00 - 20:00</a></li>
+            <li>E-mail: <a class="footer__gold" href="">@test.ru</a></li>
+            <ul class="footer__social">
+              <li><a href="#"><img src="./img/socials/youtube.svg" alt=""></a></li>
+              <li><a href="#"><img src="./img/socials/vk.svg" alt=""></a></li>
+              <li><a href="#"><img src="./img/socials/facebook.svg" alt=""></a></li>
+              <li><a href="#"><img src="./img/socials/instagram.svg" alt=""></a></li>
+            </ul>
+          </ul>
+      </div>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="/main.js"></script>
+  </body>
 </html>
+
+

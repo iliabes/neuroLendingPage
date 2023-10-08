@@ -1,0 +1,23 @@
+.apartmens
+    position: relative
+    &::before
+        content: 'III'
+        position: absolute,
+        opacity: 2%
+        font-family: $font-accent
+        top: 0
+        left: 0
+        font-size: 400px
+        right: calc(50% + 550px)
+
+        transform: translate(-50%, 0%)
+
+.apartments__title
+    margin-bottom: 88px
+
+.apartments__cards
+    height: 1200px
+    display: grid
+    grid-template-columns: repeat(2 ,1fr)
+    // grid-template-columns: repeat(auto-fit ,minmax(290px, 1fr))
+    gap: 30px

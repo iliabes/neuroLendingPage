@@ -1,0 +1,27 @@
+.info
+    font-size: 18px
+    position: relative
+    @include  mediaTablet
+        font-size: 14px
+    
+    &--map,&--tel
+        padding-left: 35px
+        &::before
+            content: ''
+            position: absolute
+            top: 0
+            left: 0
+            width: 21px
+            height: 21px
+    &--map::before
+        background-image: url('./../../img/header/placeholder.svg')
+    &--tel::before
+        background-image: url('./../../img/header/phone-call.svg')
+
+
+
+
+        
+
+
+
